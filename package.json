@@ -4,6 +4,7 @@
   "description": "Mi primer proyecto de Node js",
   "main": "index.html",
   "scripts": {
+    "dev" : "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,5 +12,8 @@
     "url": "\u0016https://github.com/Sebastian1406/proyecto.git"
   },
   "author": "Sebastian",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
