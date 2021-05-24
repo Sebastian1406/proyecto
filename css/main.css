@@ -1,21 +1,31 @@
 .jumbotron {
-    background-color: yellow;
-    color: black;
+    background-color: cadetblue;
+}
+.jumbotron h1 {
+    text-align: center;
+    padding: 10px 0px;
+}
+.informacion{
+    text-align: center;
 }
 footer{
     padding: 10px 10px 0 10px;
-    background-color: yellow;
+    background-color: cadetblue;
     margin-bottom: 0px;
 }
-.btn{
-    color: black;
-    background-color: brown;
-}
-.card-hotel{
+
+.card-tienda{
     flex: 1 150px;
     padding: 2px 5px;   
     margin: 10px 0px;
+    text-align: center;
 }
 .btn-reserva{
     width: 100%;
+}
+.direccion{
+    margin-top: 10px;
+}
+.direccion p{
+    margin: 5px 5px 5px 0px;
 }
